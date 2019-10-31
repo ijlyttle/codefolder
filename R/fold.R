@@ -1,7 +1,9 @@
-#' Codefolding
+#' Enable code-folding
 #'
-#' @param query `character` CSS-selector string for code blocks
-#' @param style `character` CSS style for the button
+#' @param init `character` indictates to `"show"` or `"hide"` code blocks
+#'   at initialization.
+#' @param query `character` CSS-selector string for code blocks.
+#' @param style `character` CSS style for the button.
 #'
 #' @return `htmltools::tagList`
 #' @export

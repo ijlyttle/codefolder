@@ -9,6 +9,8 @@
 status](https://www.r-pkg.org/badges/version/codefolder)](https://CRAN.R-project.org/package=codefolder)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis build
+status](https://travis-ci.org/ijlyttle/codefolder.svg?branch=master)](https://travis-ci.org/ijlyttle/codefolder)
 <!-- badges: end -->
 
 The goal of codefolder is to provide “aftermarket” code-folding
@@ -40,3 +42,9 @@ Distill:
     codefolder::distill(init = "hide")
     ```
     </aside>
+
+## Code of Conduct
+
+Please note that the ‘codefolder’ project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
+this project, you agree to abide by its terms.

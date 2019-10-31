@@ -4,23 +4,26 @@
 \alias{generic}
 \alias{bookdown}
 \alias{distill}
-\title{Codefolding}
+\title{Enable code-folding}
 \usage{
-generic(query, style)
+generic(init = c("show", "hide"), query, style)
 
-bookdown(query = "pre.sourceCode",
+bookdown(init = c("show", "hide"), query = "pre.sourceCode",
   style = "position: absolute; right: 5\%; z-index: 200")
 
-distill(query = "d-code", style = "")
+distill(init = c("show", "hide"), query = "d-code", style = "")
 }
 \arguments{
-\item{query}{\code{character} CSS-selector string for code blocks}
+\item{init}{\code{character} indictates to \code{"show"} or \code{"hide"} code blocks
+at initialization.}
 
-\item{style}{\code{character} CSS style for the button}
+\item{query}{\code{character} CSS-selector string for code blocks.}
+
+\item{style}{\code{character} CSS style for the button.}
 }
 \value{
 \code{htmltools::tagList}
 }
 \description{
-Codefolding
+Enable code-folding
 }
