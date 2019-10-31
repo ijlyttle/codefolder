@@ -1,0 +1,21 @@
+Package: codefolder
+Title: Enable per-page code-folding for Distill and Bookdown
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ian J",
+           family = "Lyttle",
+           role = c("aut", "cre"),
+           email = "ian.lyttle@schneider-electric.com",
+           comment = c(ORCID = "0000-0001-9962-4849"))
+Description: Neither the distill package nor the bookdown package
+ support code-folding natively. This is an attempt to make this a 
+ little easier in the meantime. It is based on this Stack Overflow
+ answer: <https://stackoverflow.com/a/45501553> by Sébastien Rochette.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    htmltools,
+    glue
