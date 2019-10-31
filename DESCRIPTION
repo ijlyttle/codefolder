@@ -1,12 +1,21 @@
 Package: codefolder
-Title: Enable per-page code-folding for Distill and Bookdown
+Title: Enable per-page code-folding for Bookdown and Distill
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Ian J",
-           family = "Lyttle",
-           role = c("aut", "cre"),
-           email = "ian.lyttle@schneider-electric.com",
-           comment = c(ORCID = "0000-0001-9962-4849"))
+Authors@R:  c(
+    person(
+      given = "Ian J",
+      family = "Lyttle",
+      role = c("aut", "cre"),
+      email = "ian.lyttle@schneider-electric.com",
+      comment = c(ORCID = "0000-0001-9962-4849")
+    ),
+    person(
+      given = "Sébastien",
+      family = "Rochette",
+      role = c("ctb"),
+      email = "sebastien@thinkr.fr"
+    )
+  )
 Description: Neither the distill package nor the bookdown package
  support code-folding natively. This is an attempt to make this a 
  little easier in the meantime. It is based on this Stack Overflow

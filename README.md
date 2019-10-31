@@ -15,7 +15,9 @@ status](https://travis-ci.org/ijlyttle/codefolder.svg?branch=master)](https://tr
 
 The goal of codefolder is to provide “aftermarket” code-folding
 capabilty for [bookdown](https://bookdown.org/yihui/bookdown) and
-[distill](https://rstudio.github.io/distill).
+[distill](https://rstudio.github.io/distill). The operative code is
+based on this Stack Overflow
+[answer](https://stackoverflow.com/a/45501553) by Sébastien Rochette.
 
 ## Installation
 
