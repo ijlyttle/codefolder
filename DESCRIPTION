@@ -19,3 +19,5 @@ RoxygenNote: 6.1.1
 Imports: 
     htmltools,
     glue
+URL: https://github.com/ijlyttle/codefolder
+BugReports: https://github.com/ijlyttle/codefolder/issues
