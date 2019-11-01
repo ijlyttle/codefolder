@@ -32,9 +32,11 @@ devtools::install_github("ijlyttle/codefolder")
 ## Example
 
 This is a quick way to enable code-folding, for an entire page, on a
-page-by-page basis. The idea is to put an Rmd-chunk, presumably, near
-the top of a page. When rendered, the chunk places a button in the right
-margin which can be used to show or hide code.
+page-by-page basis.
+
+The idea is to put an Rmd-chunk near the top of a page. When rendered,
+the chunk places a button in the right margin which can be used to show
+or hide code.
 
 There is a function each for Bookdown and Distill. The main argument is
 `init`, which indicates if you want, initially, to `"show"` or `"hide"`
