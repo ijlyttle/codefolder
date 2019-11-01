@@ -28,7 +28,7 @@ generic <- function(init = c("show", "hide"), query, style) {
 #' @export
 #'
 bookdown <- function(init = c("show", "hide"), query = "pre.sourceCode",
-                     style = "position: absolute; right: 5%; z-index: 200") {
+                     style = "position: absolute; right: 8%; z-index: 200") {
 
   init <- match.arg(init)
 

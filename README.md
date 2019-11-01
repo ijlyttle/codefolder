@@ -31,6 +31,16 @@ devtools::install_github("ijlyttle/codefolder")
 
 ## Example
 
+This is a quick way to enable code-folding, for an entire page, on a
+page-by-page basis. The idea is to put an Rmd-chunk, presumably, near
+the top of a page. When rendered, the chunk places a button in the right
+margin which can be used to show or hide code.
+
+There is a function each for Bookdown and Distill. The main argument is
+`init`, which indicates if you want, initially, to `"show"` or `"hide"`
+the code. The other arguments are `query`, the CSS selector for to match
+the code elements, and the `style` to the button.
+
 Bookdown:
 
     ```{r codefolder, echo=FALSE, results='asis'}
@@ -44,6 +54,12 @@ Distill:
     codefolder::distill(init = "hide")
     ```
     </aside>
+
+If you like, you can create these as RStudio [code
+snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets)
+for markdown. I use `cfb` and `cfd` as my short-codes.
+
+It will be up to you to add some CSS according to your tastes.
 
 ## Code of Conduct
 
