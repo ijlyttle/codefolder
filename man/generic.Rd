@@ -9,7 +9,7 @@
 generic(init = c("show", "hide"), query, style)
 
 bookdown(init = c("show", "hide"), query = "pre.sourceCode",
-  style = "position: absolute; right: 5\%; z-index: 200")
+  style = "position: absolute; right: 8\%; z-index: 200")
 
 distill(init = c("show", "hide"), query = "d-code", style = "")
 }
